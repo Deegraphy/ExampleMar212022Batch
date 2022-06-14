@@ -1,0 +1,379 @@
+<html>
+<head>
+<title>TestNG:  BasicscenarioDemo</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BasicscenarioDemo</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>60/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 10 11:01:05 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>327 seconds (327784 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG@614ca7df</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG@614ca7df</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.addtask()'><b>addtask</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG<br>Parameters: TASK1, TASK2</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.navigate()'><b>navigate</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG.createuser()'><b>createuser</b><br>Test class: com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG<br>Parameters: demo, user1, demouser1@gmail.com, DemoUser1, DemoUser1, DemoUser1</td>
+<td></td>
+<td>17</td>
+<td>com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG@16610890</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG.login()'><b>login</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG@614ca7df</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG.navigate()'><b>navigate</b><br>Test class: com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG@16610890</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.launchbroswer()'><b>launchbroswer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG</td>
+<td></td>
+<td>1</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.Login()'><b>Login</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.deletetask()'><b>deletetask</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG@16610890</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG.logout()'><b>logout</b><br>Test class: com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG@16610890</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.login()'><b>login</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.logout()'><b>logout</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG.launchbroswer()'><b>launchbroswer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG</td>
+<td></td>
+<td>1</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG@614ca7df</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG.deleteuser()'><b>deleteuser</b><br>Test class: com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG@16610890</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.Createproject()'><b>Createproject</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG<br>Parameters: New Project, This is a new Project</td>
+<td></td>
+<td>8</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.Login()'><b>Login</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.DeleteProject()'><b>DeleteProject</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.Logout()'><b>Logout</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG<br>Parameters: HosaCustomer, This ia new Customer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.deleteuser()'><b>deleteuser</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.modifycustomer()'><b>modifycustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG<br>Parameters: New Customer</td>
+<td></td>
+<td>6</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG.login()'><b>login</b><br>Test class: com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG@16610890</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.logout()'><b>logout</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.navigate()'><b>navigate</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.logout()'><b>logout</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG</td>
+<td></td>
+<td>3</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.launchbroswer()'><b>launchbroswer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG</td>
+<td></td>
+<td>1</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG.logout()'><b>logout</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG@614ca7df</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG<br>Parameters: HosaCustomer, This ia new Customer</td>
+<td></td>
+<td>10</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.launchbroswer()'><b>launchbroswer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG</td>
+<td></td>
+<td>1</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG.launchbrowser()'><b>launchbrowser</b><br>Test class: com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG@16610890</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG<br>Parameters: HosaCustomer, This ia new Customer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG<br>Parameters: HosaCustomer, This ia new Customer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG@614ca7df</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.login()'><b>login</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.login()'><b>login</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG<br>Parameters: admin, manager</td>
+<td></td>
+<td>5</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.modifyProject()'><b>modifyProject</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG<br>Parameters: Hosa Project</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG.navigate()'><b>navigate</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG@614ca7df</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.navigate()'><b>navigate</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.createuser()'><b>createuser</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG<br>Parameters: demo, user1, demouser1@gmail.com, DemoUser1, DemoUser1, DemoUser1</td>
+<td></td>
+<td>19</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.launchbroswer()'><b>launchbroswer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG</td>
+<td></td>
+<td>1</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.navigate()'><b>navigate</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.DeleteProject()'><b>DeleteProject</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.createcustomer()'><b>createcustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG<br>Parameters: HosaCustomer, This ia new Customer</td>
+<td></td>
+<td>9</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.launchbrowser()'><b>launchbrowser</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG</td>
+<td></td>
+<td>1</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.DeleteProject()'><b>DeleteProject</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG</td>
+<td></td>
+<td>6</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG.Createproject()'><b>Createproject</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG<br>Parameters: New Project, This is a new Project</td>
+<td></td>
+<td>9</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG@18d87d80</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.closeapplication()'><b>closeapplication</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG</td>
+<td></td>
+<td>0</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG.modify()'><b>modify</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG<br>Parameters: Sample</td>
+<td></td>
+<td>6</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG@6cd28fa7</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG.logout()'><b>logout</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG</td>
+<td></td>
+<td>3</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG@1e04fa0a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG.Createproject()'><b>Createproject</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG<br>Parameters: New Project, This is a new Project</td>
+<td></td>
+<td>8</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG@1af2d44a</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.navigate()'><b>navigate</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG</td>
+<td></td>
+<td>4</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+<tr>
+<td title='com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG.deletecustomer()'><b>deletecustomer</b><br>Test class: com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG</td>
+<td></td>
+<td>7</td>
+<td>com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG@618425b5</td></tr>
+</table><p>
+</body>
+</html>

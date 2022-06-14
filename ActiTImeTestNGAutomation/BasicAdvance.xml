@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ActiTImeTestNGAutomation">
+	<test name="BasicscenarioDemo and AdvancescenarioDemo">
+		<classes>
+			<class
+				name="com.sgtestiing.basicscenarios.Basicscenario1DemoTestNG"></class>
+			<class
+				name="com.sgtestiing.basicscenarios.BasicScenario2DemoTestNG"></class>
+			<class
+				name="com.sgtestiing.basicscenarios.BasicScenario3DemoTestNG"></class>
+			<class
+				name="com.sgtestiing.basicscenarios.BasicScenario4DemoTestNG"></class>
+			<class
+				name="com.sgtestiing.basicscenarios.BasicScenario5DemoTestNG"></class>
+			<class
+				name="com.sgtestiing.basicscenarios.BasicScenario6DemoTestNG"></class>
+			<class
+				name="com.sgtestiing.basicscenarios.BasicScenario7DemoTestNG"></class>
+			<class
+				name="com.sgtesting.advancescenario.AdvanceScenario1DemoTestNG"></class>
+			<class
+				name="com.sgtesting.advancescenario.AdvanceScenario2DemoTestNG"></class>
+		</classes>
+	</test>
+</suite>
